@@ -1,0 +1,44 @@
+[3.341s] Invoking command in '/home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg': PYTHONPATH=/home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg/build/serial_python_pkg/prefix_override:/home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg/install/serial_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/serial_python_pkg build --build-base /home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg/build/serial_python_pkg/build install --record /home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg/build/serial_python_pkg/install.log --single-version-externally-managed
+[4.440s] running egg_info
+[4.441s] creating build/serial_python_pkg/serial_python_pkg.egg-info
+[4.441s] writing build/serial_python_pkg/serial_python_pkg.egg-info/PKG-INFO
+[4.442s] writing dependency_links to build/serial_python_pkg/serial_python_pkg.egg-info/dependency_links.txt
+[4.443s] writing entry points to build/serial_python_pkg/serial_python_pkg.egg-info/entry_points.txt
+[4.444s] writing requirements to build/serial_python_pkg/serial_python_pkg.egg-info/requires.txt
+[4.444s] writing top-level names to build/serial_python_pkg/serial_python_pkg.egg-info/top_level.txt
+[4.445s] writing manifest file 'build/serial_python_pkg/serial_python_pkg.egg-info/SOURCES.txt'
+[4.456s] reading manifest file 'build/serial_python_pkg/serial_python_pkg.egg-info/SOURCES.txt'
+[4.460s] writing manifest file 'build/serial_python_pkg/serial_python_pkg.egg-info/SOURCES.txt'
+[4.461s] running build
+[4.461s] running build_py
+[4.462s] creating /home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg/build/serial_python_pkg/build
+[4.463s] creating /home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg/build/serial_python_pkg/build/lib
+[4.464s] creating /home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg/build/serial_python_pkg/build/lib/serial_python_pkg
+[4.464s] copying serial_python_pkg/arduino_bridge.py -> /home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg/build/serial_python_pkg/build/lib/serial_python_pkg
+[4.465s] copying serial_python_pkg/__init__.py -> /home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg/build/serial_python_pkg/build/lib/serial_python_pkg
+[4.466s] running install
+[4.466s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.467s]   warnings.warn(
+[4.468s] running install_lib
+[4.474s] creating /home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg/install/serial_python_pkg/lib/python3.10/site-packages/serial_python_pkg
+[4.475s] copying /home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg/build/serial_python_pkg/build/lib/serial_python_pkg/arduino_bridge.py -> /home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg/install/serial_python_pkg/lib/python3.10/site-packages/serial_python_pkg
+[4.476s] copying /home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg/build/serial_python_pkg/build/lib/serial_python_pkg/__init__.py -> /home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg/install/serial_python_pkg/lib/python3.10/site-packages/serial_python_pkg
+[4.479s] byte-compiling /home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg/install/serial_python_pkg/lib/python3.10/site-packages/serial_python_pkg/arduino_bridge.py to arduino_bridge.cpython-310.pyc
+[4.481s]   File "/home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg/install/serial_python_pkg/lib/python3.10/site-packages/serial_python_pkg/arduino_bridge.py", line 13
+[4.481s]     your Arduino's port
+[4.481s]                 ^
+[4.482s] SyntaxError: unterminated string literal (detected at line 13)
+[4.482s] 
+[4.482s] byte-compiling /home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg/install/serial_python_pkg/lib/python3.10/site-packages/serial_python_pkg/__init__.py to __init__.cpython-310.pyc
+[4.483s] running install_data
+[4.485s] creating /home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg/install/serial_python_pkg/share/ament_index
+[4.485s] creating /home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg/install/serial_python_pkg/share/ament_index/resource_index
+[4.485s] creating /home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg/install/serial_python_pkg/share/ament_index/resource_index/packages
+[4.486s] copying resource/serial_python_pkg -> /home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg/install/serial_python_pkg/share/ament_index/resource_index/packages
+[4.486s] copying package.xml -> /home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg/install/serial_python_pkg/share/serial_python_pkg
+[4.487s] running install_egg_info
+[4.493s] Copying build/serial_python_pkg/serial_python_pkg.egg-info to /home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg/install/serial_python_pkg/lib/python3.10/site-packages/serial_python_pkg-0.0.0-py3.10.egg-info
+[4.499s] running install_scripts
+[4.585s] Installing test script to /home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg/install/serial_python_pkg/lib/serial_python_pkg
+[4.586s] writing list of installed files to '/home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg/build/serial_python_pkg/install.log'
+[4.712s] Invoked command in '/home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg' returned '0': PYTHONPATH=/home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg/build/serial_python_pkg/prefix_override:/home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg/install/serial_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/serial_python_pkg build --build-base /home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg/build/serial_python_pkg/build install --record /home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg/build/serial_python_pkg/install.log --single-version-externally-managed

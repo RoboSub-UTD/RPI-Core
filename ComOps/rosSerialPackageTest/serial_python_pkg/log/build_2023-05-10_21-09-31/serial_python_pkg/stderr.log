@@ -1,0 +1,7 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/home/robosub/robosub/RPI-Core/ComOps/rosSerialPackageTest/serial_python_pkg/install/serial_python_pkg/lib/python3.10/site-packages/serial_python_pkg/arduino_bridge.py", line 13
+    your Arduino's port
+                ^
+SyntaxError: unterminated string literal (detected at line 13)
+

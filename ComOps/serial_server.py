@@ -12,7 +12,7 @@ class SerialServer(Node):
 		self.declare_parameters(
 		namespace='',
 		parameters=[
-			('device', '/dev/ttyACM0'), #device we are trasmitting to & recieving messages from
+			('device', '/dev/ttyAMA0'), #device we are trasmitting to & recieving messages from
 		    ('wheel_instructions_topic', 'wheel_instructions_topic'),
 		    ('move_forward_lin_vel', 1.0),
 		    ('move_backward_lin_vel', -1.0),
