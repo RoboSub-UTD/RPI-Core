@@ -8,20 +8,27 @@ class VideoPublisher(Node):
 
     def __init__(self):
         super().__init__('video_publisher')
-        self.publisher_ = self.create_publisher(Image, 'video', 10)
-        self.timer_period = 0.1  # seconds (10 Hz)
-        self.timer = self.create_timer(self.timer_period, self.timer_callback)
-        self.i = 0
-        self.bridge = CvBridge()
+        
+        self.publisher_ = self.create_publisher(Image, 'video_stream', 10)
+        
+        timer_period = 0.1  # seconds (4 Hz)
+        self.timer = self.create_timer(timer_period, self.timer_callback)
+        self.cap = cv2.VideoCapture(0) # Capture video from the webcam (device 0)
+        
+        cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
+        cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 400)
+        
+        self.bridge = CvBridge() 
 
     def timer_callback(self):
-        cap = cv2.VideoCapture(0)  # Capture video from the webcam (device 0)
+   
         ret, frame = cap.read()  # Read the current frame
-        cap.release()  # Release the video capture object
 
-        if ret:
+        if ret == True:
+            #Publish the images to the topic
             image_message = self.bridge.cv2_to_imgmsg(frame, encoding="bgr8")
             self.publisher_.publish(image_message)
+            self.get_logger().info('Publishing video frame')
 
 def main(args=None):
     rclpy.init(args=args)
