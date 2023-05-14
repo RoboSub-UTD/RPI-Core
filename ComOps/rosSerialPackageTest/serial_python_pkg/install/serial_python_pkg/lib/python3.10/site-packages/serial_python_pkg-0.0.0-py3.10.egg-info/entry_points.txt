@@ -1,0 +1,3 @@
+[console_scripts]
+test = serial_python_pkg.arduinoBridge:main
+
