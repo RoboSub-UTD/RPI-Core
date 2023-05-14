@@ -1,0 +1,36 @@
+[2.821s] Invoking command in '/home/robosub/RoboSub/RPI-Core/launch/video': PYTHONPATH=/home/robosub/RoboSub/RPI-Core/launch/build/video/prefix_override:/home/robosub/RoboSub/RPI-Core/launch/install/video/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/video build --build-base /home/robosub/RoboSub/RPI-Core/launch/build/video/build install --record /home/robosub/RoboSub/RPI-Core/launch/build/video/install.log --single-version-externally-managed
+[3.951s] running egg_info
+[3.954s] writing ../build/video/video.egg-info/PKG-INFO
+[3.955s] writing dependency_links to ../build/video/video.egg-info/dependency_links.txt
+[3.956s] writing entry points to ../build/video/video.egg-info/entry_points.txt
+[3.956s] writing requirements to ../build/video/video.egg-info/requires.txt
+[3.957s] writing top-level names to ../build/video/video.egg-info/top_level.txt
+[3.965s] file publisher_old_school.py (for module publisher_old_school) not found
+[3.966s] file publisher_local_function.py (for module publisher_local_function) not found
+[3.967s] file publisher_member_function.py (for module publisher_member_function) not found
+[3.968s] reading manifest file '../build/video/video.egg-info/SOURCES.txt'
+[3.972s] writing manifest file '../build/video/video.egg-info/SOURCES.txt'
+[3.973s] running build
+[3.973s] running build_py
+[3.974s] file publisher_old_school.py (for module publisher_old_school) not found
+[3.974s] file publisher_local_function.py (for module publisher_local_function) not found
+[3.975s] file publisher_member_function.py (for module publisher_member_function) not found
+[3.975s] file publisher_old_school.py (for module publisher_old_school) not found
+[3.975s] file publisher_local_function.py (for module publisher_local_function) not found
+[3.976s] file publisher_member_function.py (for module publisher_member_function) not found
+[3.976s] running install
+[3.976s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.977s]   warnings.warn(
+[3.977s] running install_lib
+[3.981s] running install_data
+[3.984s] copying package.xml -> /home/robosub/RoboSub/RPI-Core/launch/install/video/share/video
+[3.984s] running install_egg_info
+[3.990s] removing '/home/robosub/RoboSub/RPI-Core/launch/install/video/lib/python3.10/site-packages/video-0.0.0-py3.10.egg-info' (and everything under it)
+[3.992s] Copying ../build/video/video.egg-info to /home/robosub/RoboSub/RPI-Core/launch/install/video/lib/python3.10/site-packages/video-0.0.0-py3.10.egg-info
+[3.997s] running install_scripts
+[4.080s] Installing video_pub script to /home/robosub/RoboSub/RPI-Core/launch/install/video/lib/video
+[4.081s] file publisher_old_school.py (for module publisher_old_school) not found
+[4.082s] file publisher_local_function.py (for module publisher_local_function) not found
+[4.082s] file publisher_member_function.py (for module publisher_member_function) not found
+[4.082s] writing list of installed files to '/home/robosub/RoboSub/RPI-Core/launch/build/video/install.log'
+[4.209s] Invoked command in '/home/robosub/RoboSub/RPI-Core/launch/video' returned '0': PYTHONPATH=/home/robosub/RoboSub/RPI-Core/launch/build/video/prefix_override:/home/robosub/RoboSub/RPI-Core/launch/install/video/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/video build --build-base /home/robosub/RoboSub/RPI-Core/launch/build/video/build install --record /home/robosub/RoboSub/RPI-Core/launch/build/video/install.log --single-version-externally-managed

@@ -1,0 +1,35 @@
+[5.101s] Invoking command in '/home/robosub/RoboSub/RPI-Core/launch/video': PYTHONPATH=/home/robosub/RoboSub/RPI-Core/launch/build/video/prefix_override:/home/robosub/RoboSub/RPI-Core/launch/install/video/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/video build --build-base /home/robosub/RoboSub/RPI-Core/launch/build/video/build install --record /home/robosub/RoboSub/RPI-Core/launch/build/video/install.log --single-version-externally-managed
+[6.800s] running egg_info
+[6.803s] creating ../build/video/video.egg-info
+[6.804s] writing ../build/video/video.egg-info/PKG-INFO
+[6.805s] writing dependency_links to ../build/video/video.egg-info/dependency_links.txt
+[6.806s] writing entry points to ../build/video/video.egg-info/entry_points.txt
+[6.806s] writing requirements to ../build/video/video.egg-info/requires.txt
+[6.807s] writing top-level names to ../build/video/video.egg-info/top_level.txt
+[6.808s] writing manifest file '../build/video/video.egg-info/SOURCES.txt'
+[6.816s] reading manifest file '../build/video/video.egg-info/SOURCES.txt'
+[6.819s] writing manifest file '../build/video/video.egg-info/SOURCES.txt'
+[6.819s] running build
+[6.820s] running build_py
+[6.821s] creating /home/robosub/RoboSub/RPI-Core/launch/build/video/build
+[6.821s] creating /home/robosub/RoboSub/RPI-Core/launch/build/video/build/lib
+[6.821s] creating /home/robosub/RoboSub/RPI-Core/launch/build/video/build/lib/video
+[6.822s] copying video/__init__.py -> /home/robosub/RoboSub/RPI-Core/launch/build/video/build/lib/video
+[6.822s] running install
+[6.823s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.823s]   warnings.warn(
+[6.824s] running install_lib
+[6.827s] creating /home/robosub/RoboSub/RPI-Core/launch/install/video/lib/python3.10/site-packages/video
+[6.828s] copying /home/robosub/RoboSub/RPI-Core/launch/build/video/build/lib/video/__init__.py -> /home/robosub/RoboSub/RPI-Core/launch/install/video/lib/python3.10/site-packages/video
+[6.830s] byte-compiling /home/robosub/RoboSub/RPI-Core/launch/install/video/lib/python3.10/site-packages/video/__init__.py to __init__.cpython-310.pyc
+[6.832s] running install_data
+[6.834s] creating /home/robosub/RoboSub/RPI-Core/launch/install/video/share/ament_index
+[6.835s] creating /home/robosub/RoboSub/RPI-Core/launch/install/video/share/ament_index/resource_index
+[6.835s] creating /home/robosub/RoboSub/RPI-Core/launch/install/video/share/ament_index/resource_index/packages
+[6.836s] copying resource/video -> /home/robosub/RoboSub/RPI-Core/launch/install/video/share/ament_index/resource_index/packages
+[6.836s] copying package.xml -> /home/robosub/RoboSub/RPI-Core/launch/install/video/share/video
+[6.837s] running install_egg_info
+[6.843s] Copying ../build/video/video.egg-info to /home/robosub/RoboSub/RPI-Core/launch/install/video/lib/python3.10/site-packages/video-0.0.0-py3.10.egg-info
+[6.848s] running install_scripts
+[6.931s] writing list of installed files to '/home/robosub/RoboSub/RPI-Core/launch/build/video/install.log'
+[7.059s] Invoked command in '/home/robosub/RoboSub/RPI-Core/launch/video' returned '0': PYTHONPATH=/home/robosub/RoboSub/RPI-Core/launch/build/video/prefix_override:/home/robosub/RoboSub/RPI-Core/launch/install/video/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/video build --build-base /home/robosub/RoboSub/RPI-Core/launch/build/video/build install --record /home/robosub/RoboSub/RPI-Core/launch/build/video/install.log --single-version-externally-managed

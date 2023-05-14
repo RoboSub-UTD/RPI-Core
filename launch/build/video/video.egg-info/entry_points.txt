@@ -1,0 +1,3 @@
+[console_scripts]
+video_pub = video_publisher:main
+
