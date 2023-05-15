@@ -6,6 +6,7 @@ import serial
 
 class ControllerSub(Node):
     def __init__(self):
+        self.get_logger().debug('Starting initialization..')
         super().__init__('controller_sub')
         self.subscription = self.create_subscription(
             Joy,
@@ -13,6 +14,8 @@ class ControllerSub(Node):
             self.listener_callback,
             10)
         self.serial_port = serial.Serial('/dev/ttyAMA0', 9600)
+
+        self.get_logger().debug('Reached the end of initialization..')
 
     def listener_callback(self, msg):
         self.get_logger().info('Received joystick data: axes=%s, buttons=%s' % (msg.axes, msg.buttons))
@@ -24,6 +27,8 @@ class ControllerSub(Node):
             self.get_logger().info(str(msg.buttons).encode() + b'\n')
         except:
             self.get_logger().info('Input being received...')
+
+        self.get_logger().debug('Reached the end of the callback..')
 
 
 def main(args=None):
