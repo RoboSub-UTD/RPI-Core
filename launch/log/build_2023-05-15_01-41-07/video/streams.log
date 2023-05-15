@@ -1,0 +1,19 @@
+[5.428s] Invoking command in '/home/robosub/RoboSub/RPI-Core/launch/video': PYTHONPATH=/home/robosub/RoboSub/RPI-Core/launch/build/video/prefix_override:/home/robosub/RoboSub/RPI-Core/launch/install/video/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/video build --build-base /home/robosub/RoboSub/RPI-Core/launch/build/video/build install --record /home/robosub/RoboSub/RPI-Core/launch/build/video/install.log --single-version-externally-managed
+[7.243s] Traceback (most recent call last):
+[7.245s]   File "/home/robosub/RoboSub/RPI-Core/launch/video/setup.py", line 5, in <module>
+[7.247s]     setup(
+[7.249s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 153, in setup
+[7.254s]     return distutils.core.setup(**attrs)
+[7.256s]   File "/usr/lib/python3.10/distutils/core.py", line 134, in setup
+[7.258s]     ok = dist.parse_command_line()
+[7.260s]   File "/usr/lib/python3.10/distutils/dist.py", line 483, in parse_command_line
+[7.262s]     args = self._parse_command_opts(parser, args)
+[7.264s]   File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 1048, in _parse_command_opts
+[7.268s]     nargs = _Distribution._parse_command_opts(self, parser, args)
+[7.270s]   File "/usr/lib/python3.10/distutils/dist.py", line 574, in _parse_command_opts
+[7.272s]     parser.set_option_table(self.global_options +
+[7.276s]   File "/usr/lib/python3.10/distutils/fancy_getopt.py", line 88, in set_option_table
+[7.278s]     self._build_index()
+[7.280s]   File "/usr/lib/python3.10/distutils/fancy_getopt.py", line 84, in _build_index
+[7.287s]     self.option_index[option[0]] = option
+[7.289s] KeyboardInterrupt

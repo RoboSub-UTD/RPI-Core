@@ -1,0 +1,7 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/home/robosub/RoboSub/RPI-Core/launch/install/video/lib/python3.10/site-packages/video_publisher.py", line 21
+    self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 240
+                ^
+SyntaxError: '(' was never closed
+
