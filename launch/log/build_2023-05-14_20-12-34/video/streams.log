@@ -1,0 +1,26 @@
+[2.271s] Invoking command in '/home/robosub/RoboSub/RPI-Core/launch/video': PYTHONPATH=/home/robosub/RoboSub/RPI-Core/launch/build/video/prefix_override:/home/robosub/RoboSub/RPI-Core/launch/install/video/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../build/video build --build-base /home/robosub/RoboSub/RPI-Core/launch/build/video/build install --record /home/robosub/RoboSub/RPI-Core/launch/build/video/install.log --single-version-externally-managed
+[3.131s] running egg_info
+[3.133s] writing ../build/video/video.egg-info/PKG-INFO
+[3.135s] writing dependency_links to ../build/video/video.egg-info/dependency_links.txt
+[3.136s] writing entry points to ../build/video/video.egg-info/entry_points.txt
+[3.136s] writing requirements to ../build/video/video.egg-info/requires.txt
+[3.137s] writing top-level names to ../build/video/video.egg-info/top_level.txt
+[3.144s] reading manifest file '../build/video/video.egg-info/SOURCES.txt'
+[3.148s] writing manifest file '../build/video/video.egg-info/SOURCES.txt'
+[3.149s] running build
+[3.149s] running build_py
+[3.149s] copying video_publisher.py -> /home/robosub/RoboSub/RPI-Core/launch/build/video/build/lib
+[3.151s] running install
+[3.152s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.153s]   warnings.warn(
+[3.153s] running install_lib
+[3.157s] copying /home/robosub/RoboSub/RPI-Core/launch/build/video/build/lib/video_publisher.py -> /home/robosub/RoboSub/RPI-Core/launch/install/video/lib/python3.10/site-packages
+[3.160s] byte-compiling /home/robosub/RoboSub/RPI-Core/launch/install/video/lib/python3.10/site-packages/video_publisher.py to video_publisher.cpython-310.pyc
+[3.163s] running install_data
+[3.165s] running install_egg_info
+[3.171s] removing '/home/robosub/RoboSub/RPI-Core/launch/install/video/lib/python3.10/site-packages/video-0.0.0-py3.10.egg-info' (and everything under it)
+[3.173s] Copying ../build/video/video.egg-info to /home/robosub/RoboSub/RPI-Core/launch/install/video/lib/python3.10/site-packages/video-0.0.0-py3.10.egg-info
+[3.178s] running install_scripts
+[3.256s] Installing video_pub script to /home/robosub/RoboSub/RPI-Core/launch/install/video/lib/video
+[3.258s] writing list of installed files to '/home/robosub/RoboSub/RPI-Core/launch/build/video/install.log'
+[3.381s] Invoked command in '/home/robosub/RoboSub/RPI-Core/launch/video' returned '0': PYTHONPATH=/home/robosub/RoboSub/RPI-Core/launch/build/video/prefix_override:/home/robosub/RoboSub/RPI-Core/launch/install/video/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../build/video build --build-base /home/robosub/RoboSub/RPI-Core/launch/build/video/build install --record /home/robosub/RoboSub/RPI-Core/launch/build/video/install.log --single-version-externally-managed
