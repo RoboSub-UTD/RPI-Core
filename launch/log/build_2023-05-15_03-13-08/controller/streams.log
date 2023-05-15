@@ -1,0 +1,26 @@
+[8.237s] Invoking command in '/home/robosub/RoboSub/RPI-Core/launch/controller': PYTHONPATH=/home/robosub/RoboSub/RPI-Core/launch/build/controller/prefix_override:/home/robosub/RoboSub/RPI-Core/launch/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/controller build --build-base /home/robosub/RoboSub/RPI-Core/launch/build/controller/build install --record /home/robosub/RoboSub/RPI-Core/launch/build/controller/install.log --single-version-externally-managed
+[10.436s] running egg_info
+[10.442s] writing ../build/controller/controller.egg-info/PKG-INFO
+[10.448s] writing dependency_links to ../build/controller/controller.egg-info/dependency_links.txt
+[10.448s] writing entry points to ../build/controller/controller.egg-info/entry_points.txt
+[10.449s] writing requirements to ../build/controller/controller.egg-info/requires.txt
+[10.450s] writing top-level names to ../build/controller/controller.egg-info/top_level.txt
+[10.460s] reading manifest file '../build/controller/controller.egg-info/SOURCES.txt'
+[10.465s] writing manifest file '../build/controller/controller.egg-info/SOURCES.txt'
+[10.467s] running build
+[10.467s] running build_py
+[10.468s] copying controller_sub.py -> /home/robosub/RoboSub/RPI-Core/launch/build/controller/build/lib
+[10.718s] running install
+[10.721s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.721s]   warnings.warn(
+[10.729s] running install_lib
+[10.731s] copying /home/robosub/RoboSub/RPI-Core/launch/build/controller/build/lib/controller_sub.py -> /home/robosub/RoboSub/RPI-Core/launch/install/controller/lib/python3.10/site-packages
+[10.732s] byte-compiling /home/robosub/RoboSub/RPI-Core/launch/install/controller/lib/python3.10/site-packages/controller_sub.py to controller_sub.cpython-310.pyc
+[10.739s] running install_data
+[10.747s] running install_egg_info
+[10.761s] removing '/home/robosub/RoboSub/RPI-Core/launch/install/controller/lib/python3.10/site-packages/controller-0.0.0-py3.10.egg-info' (and everything under it)
+[10.766s] Copying ../build/controller/controller.egg-info to /home/robosub/RoboSub/RPI-Core/launch/install/controller/lib/python3.10/site-packages/controller-0.0.0-py3.10.egg-info
+[10.784s] running install_scripts
+[10.959s] Installing controller_sub script to /home/robosub/RoboSub/RPI-Core/launch/install/controller/lib/controller
+[10.969s] writing list of installed files to '/home/robosub/RoboSub/RPI-Core/launch/build/controller/install.log'
+[11.410s] Invoked command in '/home/robosub/RoboSub/RPI-Core/launch/controller' returned '0': PYTHONPATH=/home/robosub/RoboSub/RPI-Core/launch/build/controller/prefix_override:/home/robosub/RoboSub/RPI-Core/launch/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/controller build --build-base /home/robosub/RoboSub/RPI-Core/launch/build/controller/build install --record /home/robosub/RoboSub/RPI-Core/launch/build/controller/install.log --single-version-externally-managed

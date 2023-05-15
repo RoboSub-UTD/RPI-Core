@@ -1,0 +1,160 @@
+[0.000000] (-) TimerEvent: {}
+[0.004360] (controller) JobQueued: {'identifier': 'controller', 'dependencies': OrderedDict()}
+[0.004715] (video) JobQueued: {'identifier': 'video', 'dependencies': OrderedDict()}
+[0.004978] (controller) JobStarted: {'identifier': 'controller'}
+[0.096834] (-) TimerEvent: {}
+[0.121538] (video) JobStarted: {'identifier': 'video'}
+[0.197842] (-) TimerEvent: {}
+[0.298720] (-) TimerEvent: {}
+[0.399696] (-) TimerEvent: {}
+[0.500650] (-) TimerEvent: {}
+[0.601717] (-) TimerEvent: {}
+[0.702733] (-) TimerEvent: {}
+[0.803692] (-) TimerEvent: {}
+[0.904677] (-) TimerEvent: {}
+[1.006049] (-) TimerEvent: {}
+[1.106887] (-) TimerEvent: {}
+[1.207695] (-) TimerEvent: {}
+[1.308534] (-) TimerEvent: {}
+[1.409905] (-) TimerEvent: {}
+[1.510673] (-) TimerEvent: {}
+[1.611415] (-) TimerEvent: {}
+[1.712352] (-) TimerEvent: {}
+[1.813309] (-) TimerEvent: {}
+[1.914172] (-) TimerEvent: {}
+[2.015005] (-) TimerEvent: {}
+[2.115922] (-) TimerEvent: {}
+[2.216778] (-) TimerEvent: {}
+[2.317584] (-) TimerEvent: {}
+[2.418593] (-) TimerEvent: {}
+[2.519814] (-) TimerEvent: {}
+[2.621010] (-) TimerEvent: {}
+[2.761778] (-) TimerEvent: {}
+[2.862630] (-) TimerEvent: {}
+[2.963598] (-) TimerEvent: {}
+[3.065143] (-) TimerEvent: {}
+[3.166078] (-) TimerEvent: {}
+[3.267031] (-) TimerEvent: {}
+[3.368158] (-) TimerEvent: {}
+[3.469589] (-) TimerEvent: {}
+[3.570591] (-) TimerEvent: {}
+[3.671889] (-) TimerEvent: {}
+[3.772819] (-) TimerEvent: {}
+[3.873756] (-) TimerEvent: {}
+[3.974755] (-) TimerEvent: {}
+[4.075810] (-) TimerEvent: {}
+[4.177189] (-) TimerEvent: {}
+[4.278147] (-) TimerEvent: {}
+[4.379083] (-) TimerEvent: {}
+[4.480035] (-) TimerEvent: {}
+[4.581003] (-) TimerEvent: {}
+[4.681896] (-) TimerEvent: {}
+[4.782881] (-) TimerEvent: {}
+[4.883968] (-) TimerEvent: {}
+[4.986058] (-) TimerEvent: {}
+[5.086992] (-) TimerEvent: {}
+[5.188458] (-) TimerEvent: {}
+[5.289355] (-) TimerEvent: {}
+[5.390248] (-) TimerEvent: {}
+[5.491116] (-) TimerEvent: {}
+[5.592010] (-) TimerEvent: {}
+[5.693019] (-) TimerEvent: {}
+[5.794326] (-) TimerEvent: {}
+[5.895668] (-) TimerEvent: {}
+[5.996575] (-) TimerEvent: {}
+[6.097475] (-) TimerEvent: {}
+[6.198306] (-) TimerEvent: {}
+[6.299117] (-) TimerEvent: {}
+[6.399861] (-) TimerEvent: {}
+[6.500716] (-) TimerEvent: {}
+[6.601566] (-) TimerEvent: {}
+[6.702435] (-) TimerEvent: {}
+[6.803411] (-) TimerEvent: {}
+[6.904514] (-) TimerEvent: {}
+[7.005402] (-) TimerEvent: {}
+[7.106519] (-) TimerEvent: {}
+[7.207396] (-) TimerEvent: {}
+[7.309439] (-) TimerEvent: {}
+[7.410264] (-) TimerEvent: {}
+[7.513001] (-) TimerEvent: {}
+[7.617014] (-) TimerEvent: {}
+[7.632917] (controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/controller', 'build', '--build-base', '/home/robosub/RoboSub/RPI-Core/launch/build/controller/build', 'install', '--record', '/home/robosub/RoboSub/RPI-Core/launch/build/controller/install.log', '--single-version-externally-managed'], 'cwd': '/home/robosub/RoboSub/RPI-Core/launch/controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robosub', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/robosub', 'OLDPWD': '/home/robosub/RoboSub/RPI-Core/launch/controller', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_IP': '169.254.35.40', 'SYSTEMD_EXEC_PID': '34641', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/robosub/RoboSub/RPI-Core/launch/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'robosub', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robosub', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/robosub/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robosub-desktop:@/tmp/.ICE-unix/34602,unix/robosub-desktop:/tmp/.ICE-unix/34602', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2a40423b_f51b_4043_9954_0b9b7372c792', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.XQSY41', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/robosub/RoboSub/RPI-Core/launch/install/video:/home/robosub/RoboSub/RPI-Core/launch/install/controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://169.254.35.40:11311', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robosub/RoboSub/RPI-Core/launch/build/controller', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robosub/RoboSub/RPI-Core/launch/build/controller/prefix_override:/home/robosub/RoboSub/RPI-Core/launch/install/controller/lib/python3.10/site-packages:/home/robosub/RoboSub/RPI-Core/launch/install/video/lib/python3.10/site-packages:/home/robosub/RoboSub/RPI-Core/launch/install/controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[7.717635] (-) TimerEvent: {}
+[7.723369] (video) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/video', 'build', '--build-base', '/home/robosub/RoboSub/RPI-Core/launch/build/video/build', 'install', '--record', '/home/robosub/RoboSub/RPI-Core/launch/build/video/install.log', '--single-version-externally-managed'], 'cwd': '/home/robosub/RoboSub/RPI-Core/launch/video', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robosub', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/robosub', 'OLDPWD': '/home/robosub/RoboSub/RPI-Core/launch/controller', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_IP': '169.254.35.40', 'SYSTEMD_EXEC_PID': '34641', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/robosub/RoboSub/RPI-Core/launch/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'robosub', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robosub', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/robosub/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robosub-desktop:@/tmp/.ICE-unix/34602,unix/robosub-desktop:/tmp/.ICE-unix/34602', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2a40423b_f51b_4043_9954_0b9b7372c792', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.XQSY41', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/robosub/RoboSub/RPI-Core/launch/install/video:/home/robosub/RoboSub/RPI-Core/launch/install/controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://169.254.35.40:11311', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robosub/RoboSub/RPI-Core/launch/build/video', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robosub/RoboSub/RPI-Core/launch/build/video/prefix_override:/home/robosub/RoboSub/RPI-Core/launch/install/video/lib/python3.10/site-packages:/home/robosub/RoboSub/RPI-Core/launch/install/video/lib/python3.10/site-packages:/home/robosub/RoboSub/RPI-Core/launch/install/controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[7.819521] (-) TimerEvent: {}
+[7.920339] (-) TimerEvent: {}
+[8.021921] (-) TimerEvent: {}
+[8.123063] (-) TimerEvent: {}
+[8.225225] (-) TimerEvent: {}
+[8.327000] (-) TimerEvent: {}
+[8.427848] (-) TimerEvent: {}
+[8.528806] (-) TimerEvent: {}
+[8.629705] (-) TimerEvent: {}
+[8.730617] (-) TimerEvent: {}
+[8.831561] (-) TimerEvent: {}
+[8.932726] (-) TimerEvent: {}
+[9.034548] (-) TimerEvent: {}
+[9.135454] (-) TimerEvent: {}
+[9.236407] (-) TimerEvent: {}
+[9.337611] (-) TimerEvent: {}
+[9.438569] (-) TimerEvent: {}
+[9.539475] (-) TimerEvent: {}
+[9.640473] (-) TimerEvent: {}
+[9.741982] (-) TimerEvent: {}
+[9.823886] (controller) StdoutLine: {'line': b'running egg_info\n'}
+[9.827710] (controller) StdoutLine: {'line': b'writing ../build/controller/controller.egg-info/PKG-INFO\n'}
+[9.830061] (controller) StdoutLine: {'line': b'writing dependency_links to ../build/controller/controller.egg-info/dependency_links.txt\n'}
+[9.831230] (controller) StdoutLine: {'line': b'writing entry points to ../build/controller/controller.egg-info/entry_points.txt\n'}
+[9.832210] (controller) StdoutLine: {'line': b'writing requirements to ../build/controller/controller.egg-info/requires.txt\n'}
+[9.833891] (controller) StdoutLine: {'line': b'writing top-level names to ../build/controller/controller.egg-info/top_level.txt\n'}
+[9.842307] (-) TimerEvent: {}
+[9.849877] (controller) StdoutLine: {'line': b"reading manifest file '../build/controller/controller.egg-info/SOURCES.txt'\n"}
+[9.855554] (controller) StdoutLine: {'line': b"writing manifest file '../build/controller/controller.egg-info/SOURCES.txt'\n"}
+[9.861337] (controller) StdoutLine: {'line': b'running build\n'}
+[9.862425] (controller) StdoutLine: {'line': b'running build_py\n'}
+[9.863043] (controller) StdoutLine: {'line': b'copying controller_sub.py -> /home/robosub/RoboSub/RPI-Core/launch/build/controller/build/lib\n'}
+[9.864520] (controller) StdoutLine: {'line': b'running install\n'}
+[9.865804] (controller) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.866603] (controller) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.876667] (controller) StdoutLine: {'line': b'running install_lib\n'}
+[9.881647] (controller) StdoutLine: {'line': b'copying /home/robosub/RoboSub/RPI-Core/launch/build/controller/build/lib/controller_sub.py -> /home/robosub/RoboSub/RPI-Core/launch/install/controller/lib/python3.10/site-packages\n'}
+[9.883142] (controller) StdoutLine: {'line': b'byte-compiling /home/robosub/RoboSub/RPI-Core/launch/install/controller/lib/python3.10/site-packages/controller_sub.py to controller_sub.cpython-310.pyc\n'}
+[9.886016] (controller) StdoutLine: {'line': b'running install_data\n'}
+[9.888657] (controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.898874] (controller) StdoutLine: {'line': b"removing '/home/robosub/RoboSub/RPI-Core/launch/install/controller/lib/python3.10/site-packages/controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.904950] (controller) StdoutLine: {'line': b'Copying ../build/controller/controller.egg-info to /home/robosub/RoboSub/RPI-Core/launch/install/controller/lib/python3.10/site-packages/controller-0.0.0-py3.10.egg-info\n'}
+[9.912916] (controller) StdoutLine: {'line': b'running install_scripts\n'}
+[9.938458] (video) StdoutLine: {'line': b'running egg_info\n'}
+[9.941165] (video) StdoutLine: {'line': b'writing ../build/video/video.egg-info/PKG-INFO\n'}
+[9.943959] (video) StdoutLine: {'line': b'writing dependency_links to ../build/video/video.egg-info/dependency_links.txt\n'}
+[9.945298] (-) TimerEvent: {}
+[9.948136] (video) StdoutLine: {'line': b'writing entry points to ../build/video/video.egg-info/entry_points.txt\n'}
+[9.950533] (video) StdoutLine: {'line': b'writing requirements to ../build/video/video.egg-info/requires.txt\n'}
+[9.956107] (video) StdoutLine: {'line': b'writing top-level names to ../build/video/video.egg-info/top_level.txt\n'}
+[9.967147] (video) StdoutLine: {'line': b"reading manifest file '../build/video/video.egg-info/SOURCES.txt'\n"}
+[9.985849] (video) StdoutLine: {'line': b"writing manifest file '../build/video/video.egg-info/SOURCES.txt'\n"}
+[9.988215] (video) StdoutLine: {'line': b'running build\n'}
+[9.991601] (video) StdoutLine: {'line': b'running build_py\n'}
+[9.993096] (video) StdoutLine: {'line': b'running install\n'}
+[9.995454] (video) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.996540] (video) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.999724] (video) StdoutLine: {'line': b'running install_lib\n'}
+[10.009147] (video) StdoutLine: {'line': b'running install_data\n'}
+[10.015106] (video) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.025435] (video) StdoutLine: {'line': b"removing '/home/robosub/RoboSub/RPI-Core/launch/install/video/lib/python3.10/site-packages/video-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.029218] (video) StdoutLine: {'line': b'Copying ../build/video/video.egg-info to /home/robosub/RoboSub/RPI-Core/launch/install/video/lib/python3.10/site-packages/video-0.0.0-py3.10.egg-info\n'}
+[10.040125] (video) StdoutLine: {'line': b'running install_scripts\n'}
+[10.043051] (controller) StdoutLine: {'line': b'Installing controller_sub script to /home/robosub/RoboSub/RPI-Core/launch/install/controller/lib/controller\n'}
+[10.044441] (controller) StdoutLine: {'line': b"writing list of installed files to '/home/robosub/RoboSub/RPI-Core/launch/build/controller/install.log'\n"}
+[10.046706] (-) TimerEvent: {}
+[10.149759] (-) TimerEvent: {}
+[10.218195] (video) StdoutLine: {'line': b'Installing video_pub script to /home/robosub/RoboSub/RPI-Core/launch/install/video/lib/video\n'}
+[10.222553] (video) StdoutLine: {'line': b"writing list of installed files to '/home/robosub/RoboSub/RPI-Core/launch/build/video/install.log'\n"}
+[10.251106] (-) TimerEvent: {}
+[10.277054] (controller) CommandEnded: {'returncode': 0}
+[10.351879] (-) TimerEvent: {}
+[10.433284] (controller) JobEnded: {'identifier': 'controller', 'rc': 0}
+[10.443396] (video) CommandEnded: {'returncode': 0}
+[10.457138] (-) TimerEvent: {}
+[10.522204] (video) JobEnded: {'identifier': 'video', 'rc': 0}
+[10.527634] (-) EventReactorShutdown: {}

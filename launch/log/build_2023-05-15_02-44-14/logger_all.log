@@ -1,0 +1,163 @@
+[3.449s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.450s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8a220a00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8aa17760>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8aa17760>>)
+[3.682s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.683s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.683s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.683s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.684s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.684s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.685s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robosub/RoboSub/RPI-Core/launch'
+[3.685s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.686s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.687s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.688s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.688s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.688s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.689s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.689s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.689s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.781s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.781s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.782s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.783s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.783s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.784s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.785s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.786s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.787s] Level 1:colcon.colcon_core.package_identification:_identify(controller) by extensions ['ignore', 'ignore_ament_install']
+[3.788s] Level 1:colcon.colcon_core.package_identification:_identify(controller) by extension 'ignore'
+[3.788s] Level 1:colcon.colcon_core.package_identification:_identify(controller) by extension 'ignore_ament_install'
+[3.789s] Level 1:colcon.colcon_core.package_identification:_identify(controller) by extensions ['colcon_pkg']
+[3.789s] Level 1:colcon.colcon_core.package_identification:_identify(controller) by extension 'colcon_pkg'
+[3.790s] Level 1:colcon.colcon_core.package_identification:_identify(controller) by extensions ['colcon_meta']
+[3.790s] Level 1:colcon.colcon_core.package_identification:_identify(controller) by extension 'colcon_meta'
+[3.791s] Level 1:colcon.colcon_core.package_identification:_identify(controller) by extensions ['ros']
+[3.791s] Level 1:colcon.colcon_core.package_identification:_identify(controller) by extension 'ros'
+[3.806s] DEBUG:colcon.colcon_core.package_identification:Package 'controller' with type 'ros.ament_python' and name 'controller'
+[3.807s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.808s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.808s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.810s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.811s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.811s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extensions ['ignore', 'ignore_ament_install']
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extension 'ignore'
+[3.814s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extension 'ignore_ament_install'
+[3.814s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extensions ['colcon_pkg']
+[3.815s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extension 'colcon_pkg'
+[3.815s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extensions ['colcon_meta']
+[3.816s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extension 'colcon_meta'
+[3.816s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extensions ['ros']
+[3.817s] Level 1:colcon.colcon_core.package_identification:_identify(video) by extension 'ros'
+[3.821s] DEBUG:colcon.colcon_core.package_identification:Package 'video' with type 'ros.ament_python' and name 'video'
+[3.821s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.822s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.822s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.822s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.823s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.974s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.974s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.993s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/robosub/RoboSub/RPI-Core/launch/install
+[4.006s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[4.014s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.552s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_args' from command line to 'None'
+[4.553s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_target' from command line to 'None'
+[4.553s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.553s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_clean_cache' from command line to 'False'
+[4.554s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_clean_first' from command line to 'False'
+[4.554s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_force_configure' from command line to 'False'
+[4.554s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'ament_cmake_args' from command line to 'None'
+[4.555s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'catkin_cmake_args' from command line to 'None'
+[4.555s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.555s] DEBUG:colcon.colcon_core.verb:Building package 'controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robosub/RoboSub/RPI-Core/launch/build/controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robosub/RoboSub/RPI-Core/launch/install/controller', 'merge_install': False, 'path': '/home/robosub/RoboSub/RPI-Core/launch/controller', 'symlink_install': False, 'test_result_base': None}
+[4.562s] Level 5:colcon.colcon_core.verb:set package 'video' build argument 'cmake_args' from command line to 'None'
+[4.563s] Level 5:colcon.colcon_core.verb:set package 'video' build argument 'cmake_target' from command line to 'None'
+[4.563s] Level 5:colcon.colcon_core.verb:set package 'video' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.563s] Level 5:colcon.colcon_core.verb:set package 'video' build argument 'cmake_clean_cache' from command line to 'False'
+[4.563s] Level 5:colcon.colcon_core.verb:set package 'video' build argument 'cmake_clean_first' from command line to 'False'
+[4.564s] Level 5:colcon.colcon_core.verb:set package 'video' build argument 'cmake_force_configure' from command line to 'False'
+[4.564s] Level 5:colcon.colcon_core.verb:set package 'video' build argument 'ament_cmake_args' from command line to 'None'
+[4.564s] Level 5:colcon.colcon_core.verb:set package 'video' build argument 'catkin_cmake_args' from command line to 'None'
+[4.564s] Level 5:colcon.colcon_core.verb:set package 'video' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.565s] DEBUG:colcon.colcon_core.verb:Building package 'video' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robosub/RoboSub/RPI-Core/launch/build/video', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robosub/RoboSub/RPI-Core/launch/install/video', 'merge_install': False, 'path': '/home/robosub/RoboSub/RPI-Core/launch/video', 'symlink_install': False, 'test_result_base': None}
+[4.569s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.596s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.597s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robosub/RoboSub/RPI-Core/launch/controller' with build type 'ament_python'
+[4.598s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller', 'ament_prefix_path')
+[4.670s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/RoboSub/RPI-Core/launch/install/controller/share/controller/hook/ament_prefix_path.ps1'
+[4.676s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosub/RoboSub/RPI-Core/launch/install/controller/share/controller/hook/ament_prefix_path.dsv'
+[4.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/RoboSub/RPI-Core/launch/install/controller/share/controller/hook/ament_prefix_path.sh'
+[4.692s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.693s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.750s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robosub/RoboSub/RPI-Core/launch/video' with build type 'ament_python'
+[4.751s] Level 1:colcon.colcon_core.shell:create_environment_hook('video', 'ament_prefix_path')
+[4.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/RoboSub/RPI-Core/launch/install/video/share/video/hook/ament_prefix_path.ps1'
+[4.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosub/RoboSub/RPI-Core/launch/install/video/share/video/hook/ament_prefix_path.dsv'
+[4.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/RoboSub/RPI-Core/launch/install/video/share/video/hook/ament_prefix_path.sh'
+[4.791s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.792s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.158s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robosub/RoboSub/RPI-Core/launch/controller'
+[7.168s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.168s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.705s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robosub/RoboSub/RPI-Core/launch/video'
+[9.714s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.715s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robosub/RoboSub/RPI-Core/launch/video': PYTHONPATH=/home/robosub/RoboSub/RPI-Core/launch/build/video/prefix_override:/home/robosub/RoboSub/RPI-Core/launch/install/video/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/video build --build-base /home/robosub/RoboSub/RPI-Core/launch/build/video/build install --record /home/robosub/RoboSub/RPI-Core/launch/build/video/install.log --single-version-externally-managed
+[13.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robosub/RoboSub/RPI-Core/launch/controller': PYTHONPATH=/home/robosub/RoboSub/RPI-Core/launch/build/controller/prefix_override:/home/robosub/RoboSub/RPI-Core/launch/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/controller build --build-base /home/robosub/RoboSub/RPI-Core/launch/build/controller/build install --record /home/robosub/RoboSub/RPI-Core/launch/build/controller/install.log --single-version-externally-managed
+[15.861s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robosub/RoboSub/RPI-Core/launch/video' returned '0': PYTHONPATH=/home/robosub/RoboSub/RPI-Core/launch/build/video/prefix_override:/home/robosub/RoboSub/RPI-Core/launch/install/video/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/video build --build-base /home/robosub/RoboSub/RPI-Core/launch/build/video/build install --record /home/robosub/RoboSub/RPI-Core/launch/build/video/install.log --single-version-externally-managed
+[15.894s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/RoboSub/RPI-Core/launch/install/video' for CMake module files
+[15.902s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/RoboSub/RPI-Core/launch/install/video' for CMake config files
+[15.910s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/RoboSub/RPI-Core/launch/install/video/lib'
+[15.912s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/RoboSub/RPI-Core/launch/install/video/bin'
+[15.912s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/RoboSub/RPI-Core/launch/install/video/lib/pkgconfig/video.pc'
+[15.914s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/RoboSub/RPI-Core/launch/install/video/lib/python3.10/site-packages'
+[15.914s] Level 1:colcon.colcon_core.shell:create_environment_hook('video', 'pythonpath')
+[15.936s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/RoboSub/RPI-Core/launch/install/video/share/video/hook/pythonpath.ps1'
+[15.945s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosub/RoboSub/RPI-Core/launch/install/video/share/video/hook/pythonpath.dsv'
+[15.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/RoboSub/RPI-Core/launch/install/video/share/video/hook/pythonpath.sh'
+[15.958s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/RoboSub/RPI-Core/launch/install/video/bin'
+[15.960s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(video)
+[15.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/RoboSub/RPI-Core/launch/install/video/share/video/package.ps1'
+[15.989s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robosub/RoboSub/RPI-Core/launch/install/video/share/video/package.dsv'
+[15.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/RoboSub/RPI-Core/launch/install/video/share/video/package.sh'
+[16.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/RoboSub/RPI-Core/launch/install/video/share/video/package.bash'
+[16.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/RoboSub/RPI-Core/launch/install/video/share/video/package.zsh'
+[16.022s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robosub/RoboSub/RPI-Core/launch/install/video/share/colcon-core/packages/video)
+[16.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robosub/RoboSub/RPI-Core/launch/controller' returned '0': PYTHONPATH=/home/robosub/RoboSub/RPI-Core/launch/build/controller/prefix_override:/home/robosub/RoboSub/RPI-Core/launch/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/controller build --build-base /home/robosub/RoboSub/RPI-Core/launch/build/controller/build install --record /home/robosub/RoboSub/RPI-Core/launch/build/controller/install.log --single-version-externally-managed
+[16.192s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/RoboSub/RPI-Core/launch/install/controller' for CMake module files
+[16.195s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/RoboSub/RPI-Core/launch/install/controller' for CMake config files
+[16.201s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/RoboSub/RPI-Core/launch/install/controller/lib'
+[16.203s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/RoboSub/RPI-Core/launch/install/controller/bin'
+[16.204s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/RoboSub/RPI-Core/launch/install/controller/lib/pkgconfig/controller.pc'
+[16.209s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/RoboSub/RPI-Core/launch/install/controller/lib/python3.10/site-packages'
+[16.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller', 'pythonpath')
+[16.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/RoboSub/RPI-Core/launch/install/controller/share/controller/hook/pythonpath.ps1'
+[16.227s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robosub/RoboSub/RPI-Core/launch/install/controller/share/controller/hook/pythonpath.dsv'
+[16.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robosub/RoboSub/RPI-Core/launch/install/controller/share/controller/hook/pythonpath.sh'
+[16.237s] Level 1:colcon.colcon_core.environment:checking '/home/robosub/RoboSub/RPI-Core/launch/install/controller/bin'
+[16.238s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controller)
+[16.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/RoboSub/RPI-Core/launch/install/controller/share/controller/package.ps1'
+[16.253s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robosub/RoboSub/RPI-Core/launch/install/controller/share/controller/package.dsv'
+[16.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/RoboSub/RPI-Core/launch/install/controller/share/controller/package.sh'
+[16.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/RoboSub/RPI-Core/launch/install/controller/share/controller/package.bash'
+[16.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/robosub/RoboSub/RPI-Core/launch/install/controller/share/controller/package.zsh'
+[16.271s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robosub/RoboSub/RPI-Core/launch/install/controller/share/colcon-core/packages/controller)
+[16.277s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.279s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.280s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.280s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.322s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.323s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.323s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.510s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.519s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robosub/RoboSub/RPI-Core/launch/install/local_setup.ps1'
+[16.525s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robosub/RoboSub/RPI-Core/launch/install/_local_setup_util_ps1.py'
+[16.532s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robosub/RoboSub/RPI-Core/launch/install/setup.ps1'
+[16.540s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robosub/RoboSub/RPI-Core/launch/install/local_setup.sh'
+[16.544s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robosub/RoboSub/RPI-Core/launch/install/_local_setup_util_sh.py'
+[16.547s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robosub/RoboSub/RPI-Core/launch/install/setup.sh'
+[16.559s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robosub/RoboSub/RPI-Core/launch/install/local_setup.bash'
+[16.565s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robosub/RoboSub/RPI-Core/launch/install/setup.bash'
+[16.580s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robosub/RoboSub/RPI-Core/launch/install/local_setup.zsh'
+[16.584s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robosub/RoboSub/RPI-Core/launch/install/setup.zsh'
