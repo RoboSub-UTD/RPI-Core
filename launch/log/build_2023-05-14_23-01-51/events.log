@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000149] (-) JobUnselected: {'identifier': 'controller'}
+[0.000180] (-) JobUnselected: {'identifier': 'video'}
+[0.000604] (-) EventReactorShutdown: {}

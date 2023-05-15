@@ -1,0 +1,39 @@
+[0.589s] Invoking command in '/home/farhan/RoboSub/RPI-Core/launch/controller': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/farhan/RoboSub/RPI-Core/launch/build/controller/prefix_override:/home/farhan/RoboSub/RPI-Core/launch/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/controller build --build-base /home/farhan/RoboSub/RPI-Core/launch/build/controller/build install --record /home/farhan/RoboSub/RPI-Core/launch/build/controller/install.log --single-version-externally-managed
+[0.742s] running egg_info
+[0.742s] creating ../build/controller/controller.egg-info
+[0.743s] writing ../build/controller/controller.egg-info/PKG-INFO
+[0.743s] writing dependency_links to ../build/controller/controller.egg-info/dependency_links.txt
+[0.743s] writing entry points to ../build/controller/controller.egg-info/entry_points.txt
+[0.743s] writing requirements to ../build/controller/controller.egg-info/requires.txt
+[0.743s] writing top-level names to ../build/controller/controller.egg-info/top_level.txt
+[0.743s] writing manifest file '../build/controller/controller.egg-info/SOURCES.txt'
+[0.744s] reading manifest file '../build/controller/controller.egg-info/SOURCES.txt'
+[0.744s] writing manifest file '../build/controller/controller.egg-info/SOURCES.txt'
+[0.744s] running build
+[0.745s] running build_py
+[0.745s] creating /home/farhan/RoboSub/RPI-Core/launch/build/controller/build
+[0.745s] creating /home/farhan/RoboSub/RPI-Core/launch/build/controller/build/lib
+[0.745s] copying controller_sub.py -> /home/farhan/RoboSub/RPI-Core/launch/build/controller/build/lib
+[0.745s] creating /home/farhan/RoboSub/RPI-Core/launch/build/controller/build/lib/controller
+[0.745s] copying controller/__init__.py -> /home/farhan/RoboSub/RPI-Core/launch/build/controller/build/lib/controller
+[0.745s] running install
+[0.745s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.745s]   warnings.warn(
+[0.745s] running install_lib
+[0.746s] creating /home/farhan/RoboSub/RPI-Core/launch/install/controller/lib/python3.10/site-packages/controller
+[0.746s] copying /home/farhan/RoboSub/RPI-Core/launch/build/controller/build/lib/controller/__init__.py -> /home/farhan/RoboSub/RPI-Core/launch/install/controller/lib/python3.10/site-packages/controller
+[0.746s] copying /home/farhan/RoboSub/RPI-Core/launch/build/controller/build/lib/controller_sub.py -> /home/farhan/RoboSub/RPI-Core/launch/install/controller/lib/python3.10/site-packages
+[0.746s] byte-compiling /home/farhan/RoboSub/RPI-Core/launch/install/controller/lib/python3.10/site-packages/controller/__init__.py to __init__.cpython-310.pyc
+[0.746s] byte-compiling /home/farhan/RoboSub/RPI-Core/launch/install/controller/lib/python3.10/site-packages/controller_sub.py to controller_sub.cpython-310.pyc
+[0.747s] running install_data
+[0.747s] creating /home/farhan/RoboSub/RPI-Core/launch/install/controller/share/ament_index
+[0.747s] creating /home/farhan/RoboSub/RPI-Core/launch/install/controller/share/ament_index/resource_index
+[0.747s] creating /home/farhan/RoboSub/RPI-Core/launch/install/controller/share/ament_index/resource_index/packages
+[0.747s] copying resource/controller -> /home/farhan/RoboSub/RPI-Core/launch/install/controller/share/ament_index/resource_index/packages
+[0.747s] copying package.xml -> /home/farhan/RoboSub/RPI-Core/launch/install/controller/share/controller
+[0.748s] running install_egg_info
+[0.749s] Copying ../build/controller/controller.egg-info to /home/farhan/RoboSub/RPI-Core/launch/install/controller/lib/python3.10/site-packages/controller-0.0.0-py3.10.egg-info
+[0.749s] running install_scripts
+[0.764s] Installing controller_sub script to /home/farhan/RoboSub/RPI-Core/launch/install/controller/lib/controller
+[0.764s] writing list of installed files to '/home/farhan/RoboSub/RPI-Core/launch/build/controller/install.log'
+[0.792s] Invoked command in '/home/farhan/RoboSub/RPI-Core/launch/controller' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/farhan/RoboSub/RPI-Core/launch/build/controller/prefix_override:/home/farhan/RoboSub/RPI-Core/launch/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/controller build --build-base /home/farhan/RoboSub/RPI-Core/launch/build/controller/build install --record /home/farhan/RoboSub/RPI-Core/launch/build/controller/install.log --single-version-externally-managed

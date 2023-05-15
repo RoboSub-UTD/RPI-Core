@@ -1,0 +1,23 @@
+[0.580s] Invoking command in '/home/farhan/RoboSub/RPI-Core/launch/video': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/farhan/RoboSub/RPI-Core/launch/build/video/prefix_override:/home/farhan/RoboSub/RPI-Core/launch/install/video/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/video build --build-base /home/farhan/RoboSub/RPI-Core/launch/build/video/build install --record /home/farhan/RoboSub/RPI-Core/launch/build/video/install.log --single-version-externally-managed
+[0.734s] running egg_info
+[0.734s] writing ../build/video/video.egg-info/PKG-INFO
+[0.734s] writing dependency_links to ../build/video/video.egg-info/dependency_links.txt
+[0.734s] writing entry points to ../build/video/video.egg-info/entry_points.txt
+[0.735s] writing requirements to ../build/video/video.egg-info/requires.txt
+[0.735s] writing top-level names to ../build/video/video.egg-info/top_level.txt
+[0.736s] reading manifest file '../build/video/video.egg-info/SOURCES.txt'
+[0.737s] writing manifest file '../build/video/video.egg-info/SOURCES.txt'
+[0.737s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.737s]   warnings.warn(
+[0.737s] running build
+[0.738s] running build_py
+[0.738s] running install
+[0.738s] running install_lib
+[0.738s] running install_data
+[0.739s] running install_egg_info
+[0.740s] removing '/home/farhan/RoboSub/RPI-Core/launch/install/video/lib/python3.10/site-packages/video-0.0.0-py3.10.egg-info' (and everything under it)
+[0.740s] Copying ../build/video/video.egg-info to /home/farhan/RoboSub/RPI-Core/launch/install/video/lib/python3.10/site-packages/video-0.0.0-py3.10.egg-info
+[0.740s] running install_scripts
+[0.756s] Installing video_pub script to /home/farhan/RoboSub/RPI-Core/launch/install/video/lib/video
+[0.756s] writing list of installed files to '/home/farhan/RoboSub/RPI-Core/launch/build/video/install.log'
+[0.795s] Invoked command in '/home/farhan/RoboSub/RPI-Core/launch/video' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/farhan/RoboSub/RPI-Core/launch/build/video/prefix_override:/home/farhan/RoboSub/RPI-Core/launch/install/video/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/video build --build-base /home/farhan/RoboSub/RPI-Core/launch/build/video/build install --record /home/farhan/RoboSub/RPI-Core/launch/build/video/install.log --single-version-externally-managed
