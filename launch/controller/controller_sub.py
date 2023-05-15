@@ -17,13 +17,14 @@ class ControllerSub(Node):
     def listener_callback(self, msg):
         self.get_logger().info('Received joystick data: axes=%s, buttons=%s' % (msg.axes, msg.buttons))
         try:
-		    self.serial_port.write(str(msg.axes).encode() + b'\n')
-		    self.serial_port.write(str(msg.buttons).encode() + b'\n')
+            self.serial_port.write(str(msg.axes).encode() + b'\n')
+            self.serial_port.write(str(msg.buttons).encode() + b'\n')
 
-		    self.get_logger().info(str(msg.axes).encode() + b'\n')
-		    self.get_logger().info(str(msg.buttons).encode() + b'\n')
-		except:
-		    self.get_logger().info('Input being received...')
+            self.get_logger().info(str(msg.axes).encode() + b'\n')
+            self.get_logger().info(str(msg.buttons).encode() + b'\n')
+        except:
+            self.get_logger().info('Input being received...')
+
 
 def main(args=None):
     rclpy.init(args=args)
